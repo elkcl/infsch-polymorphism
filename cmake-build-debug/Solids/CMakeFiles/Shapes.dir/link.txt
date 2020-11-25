@@ -1,2 +1,0 @@
-/usr/bin/ar qc libShapes.a  
-/usr/bin/ranlib libShapes.a

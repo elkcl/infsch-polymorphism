@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/Solidtest.dir/solidtest.cpp.o  -o Solidtest 

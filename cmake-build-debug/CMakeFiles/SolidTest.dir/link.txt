@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/SolidTest.dir/solidtest.cpp.o  -o SolidTest  -lSTATIC Figures/Shapes/libShapesLib.a Figures/Solids/libSolidsLib.a 

@@ -1,2 +1,0 @@
-/usr/bin/ar qc libShapesLib.a  CMakeFiles/ShapesLib.dir/circle.cpp.o CMakeFiles/ShapesLib.dir/polygon.cpp.o CMakeFiles/ShapesLib.dir/rectangle.cpp.o CMakeFiles/ShapesLib.dir/square.cpp.o CMakeFiles/ShapesLib.dir/parallelogram.cpp.o
-/usr/bin/ranlib libShapesLib.a
