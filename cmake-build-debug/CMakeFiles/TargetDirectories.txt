@@ -1,0 +1,9 @@
+/home/elk/CLionProjects/polymorphism/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/elk/CLionProjects/polymorphism/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/elk/CLionProjects/polymorphism/cmake-build-debug/CMakeFiles/SolidTest.dir
+/home/elk/CLionProjects/polymorphism/cmake-build-debug/Figures/Shapes/CMakeFiles/edit_cache.dir
+/home/elk/CLionProjects/polymorphism/cmake-build-debug/Figures/Shapes/CMakeFiles/rebuild_cache.dir
+/home/elk/CLionProjects/polymorphism/cmake-build-debug/Figures/Shapes/CMakeFiles/ShapesLib.dir
+/home/elk/CLionProjects/polymorphism/cmake-build-debug/Figures/Solids/CMakeFiles/rebuild_cache.dir
+/home/elk/CLionProjects/polymorphism/cmake-build-debug/Figures/Solids/CMakeFiles/edit_cache.dir
+/home/elk/CLionProjects/polymorphism/cmake-build-debug/Figures/Solids/CMakeFiles/SolidsLib.dir

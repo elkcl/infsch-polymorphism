@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Solids"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Solids\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/elk/CLionProjects/polymorphism/cmake-build-debug/Solids"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/elk/CLionProjects/polymorphism/cmake-build-debug/Solids/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/elk/CLionProjects/polymorphism/cmake-build-debug/Solids/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/elk/CLionProjects/polymorphism/cmake-build-debug/Solids/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/elk/CLionProjects/polymorphism/cmake-build-debug/Solids/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Shapes">
+				<Option output="/home/elk/CLionProjects/polymorphism/cmake-build-debug/Solids/libShapes.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/elk/CLionProjects/polymorphism/cmake-build-debug/Solids"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/elk/CLionProjects/polymorphism/cmake-build-debug/Solids/Makefile&quot;  VERBOSE=1 Shapes"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/elk/CLionProjects/polymorphism/cmake-build-debug/Solids/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/elk/CLionProjects/polymorphism/cmake-build-debug/Solids/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/elk/CLionProjects/polymorphism/cmake-build-debug/Solids/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Shapes/fast">
+				<Option output="/home/elk/CLionProjects/polymorphism/cmake-build-debug/Solids/libShapes.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/elk/CLionProjects/polymorphism/cmake-build-debug/Solids"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/elk/CLionProjects/polymorphism/cmake-build-debug/Solids/Makefile&quot;  VERBOSE=1 Shapes/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/elk/CLionProjects/polymorphism/cmake-build-debug/Solids/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/elk/CLionProjects/polymorphism/cmake-build-debug/Solids/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/elk/CLionProjects/polymorphism/cmake-build-debug/Solids/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Primitives">
+				<Option output="/home/elk/CLionProjects/polymorphism/cmake-build-debug/Solids/libPrimitives.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/elk/CLionProjects/polymorphism/cmake-build-debug/Solids"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/elk/CLionProjects/polymorphism/cmake-build-debug/Solids/Makefile&quot;  VERBOSE=1 Primitives"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/elk/CLionProjects/polymorphism/cmake-build-debug/Solids/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/elk/CLionProjects/polymorphism/cmake-build-debug/Solids/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/elk/CLionProjects/polymorphism/cmake-build-debug/Solids/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Primitives/fast">
+				<Option output="/home/elk/CLionProjects/polymorphism/cmake-build-debug/Solids/libPrimitives.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/elk/CLionProjects/polymorphism/cmake-build-debug/Solids"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/elk/CLionProjects/polymorphism/cmake-build-debug/Solids/Makefile&quot;  VERBOSE=1 Primitives/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/elk/CLionProjects/polymorphism/cmake-build-debug/Solids/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/elk/CLionProjects/polymorphism/cmake-build-debug/Solids/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/elk/CLionProjects/polymorphism/cmake-build-debug/Solids/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/elk/CLionProjects/polymorphism/Solids/circle.h">
+			<Option target="Shapes"/>
+		</Unit>
+		<Unit filename="/home/elk/CLionProjects/polymorphism/Solids/plane.h">
+			<Option target="Primitives"/>
+		</Unit>
+		<Unit filename="/home/elk/CLionProjects/polymorphism/Solids/point.h">
+			<Option target="Primitives"/>
+		</Unit>
+		<Unit filename="/home/elk/CLionProjects/polymorphism/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/elk/CLionProjects/polymorphism/Solids/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Solids\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSolidsLib.a  CMakeFiles/SolidsLib.dir/parallelepiped.cpp.o CMakeFiles/SolidsLib.dir/cylinder.cpp.o CMakeFiles/SolidsLib.dir/sphere.cpp.o
+/usr/bin/ranlib libSolidsLib.a
