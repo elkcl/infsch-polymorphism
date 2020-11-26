@@ -8,6 +8,8 @@
 #include "solid.h"
 #include "point.h"
 #include <cmath>
+#include <iostream>
+#include <memory>
 
 const double PI = std::acos(-1);
 
@@ -23,6 +25,8 @@ public:
     double diameter() const override;
     double surfaceArea() const override;
     double volume() const override;
+
+    static std::unique_ptr<Sphere> input(std::istream& in, std::ostream& out);
 };
 
 #endif //POLYMORPHISM_SPHERE_H

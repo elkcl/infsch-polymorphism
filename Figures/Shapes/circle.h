@@ -8,6 +8,8 @@
 #include "shape.h"
 #include "point.h"
 #include <cmath>
+#include <iostream>
+#include <memory>
 
 const double PI = std::acos(-1);
 
@@ -23,6 +25,8 @@ public:
     double diameter() const override;
     double perimeter() const override;
     double area() const override;
+
+    static std::unique_ptr<Circle> input(std::istream& in, std::ostream& out);
 };
 
 #endif //POLYMORPHISM_CIRCLE_H

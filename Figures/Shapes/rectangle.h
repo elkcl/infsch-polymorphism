@@ -15,6 +15,8 @@ public:
 
     double diameter() const override;
     double perimeter() const override;
+
+    static std::unique_ptr<Rectangle> input(std::istream& in, std::ostream& out);
 };
 
 #endif //POLYMORPHISM_RECTANGLE_H

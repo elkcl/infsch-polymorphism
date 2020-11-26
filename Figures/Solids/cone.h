@@ -10,6 +10,8 @@
 #include "point.h"
 #include <type_traits>
 
+//TODO: сделать нормально конусы
+
 template <typename T>
 class Cone : public Solid {
     static_assert(std::is_base_of<Shape, T>::value, "Cone base must be a 2D shape");

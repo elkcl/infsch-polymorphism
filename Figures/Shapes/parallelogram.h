@@ -6,6 +6,9 @@
 #define POLYMORPHISM_PARALLELOGRAM_H
 
 #include "polygon.h"
+#include <iostream>
+#include <memory>
+#include <cassert>
 
 class Parallelogram : public Polygon {
 protected:
@@ -22,6 +25,8 @@ public:
     double diameter() const override;
     double perimeter() const override;
     double area() const override;
+
+    static std::unique_ptr<Parallelogram> input(std::istream& in, std::ostream& out);
 };
 
 #endif //POLYMORPHISM_PARALLELOGRAM_H
