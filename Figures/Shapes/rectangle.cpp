@@ -5,7 +5,7 @@
 #include "rectangle.h"
 
 double Rectangle::diameter() const {
-    return sqrt(m_length*m_length + m_height*m_height);
+    return std::sqrt(m_length*m_length + m_height*m_height);
 }
 
 double Rectangle::perimeter() const {

@@ -12,7 +12,7 @@ int main() {
     vector<unique_ptr<Solid>> v(n);
     for (int i = 0; i < n; ++i) {
         int type;
-        cout << "Enter type of solid #" << i+1 << "\n:";
+        cout << "Enter type of solid #" << i+1 << ":\n";
         cin >> type;
         switch (type) {
             case 0:

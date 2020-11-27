@@ -5,16 +5,20 @@
 #ifndef POLYMORPHISM_CYLINDER_H
 #define POLYMORPHISM_CYLINDER_H
 
+#include <utility>
+
 #include "prism.h"
 #include "circle.h"
 
 template<>
 class Prism<Circle> : public PrismBase<Circle> {
 public:
+    Prism(Circle base, Point transVector): PrismBase<Circle>{std::move(base), transVector} {}
     double diameter() const override {
         Point centerLine = m_base.plane().projection(m_base.center() + m_transVector) - m_base.center();
-        Point a = m_base.center() - m_base.radius() * (centerLine / centerLine.absv());
-        Point b = m_base.center() + m_transVector + m_base.radius() * (centerLine / centerLine.absv());
+        if (centerLine.absv() != 0) centerLine = centerLine / centerLine.absv();
+        Point a = m_base.center() - m_base.radius() * centerLine;
+        Point b = m_base.center() + m_transVector + m_base.radius() * centerLine;
         return (b - a).absv();
     }
 

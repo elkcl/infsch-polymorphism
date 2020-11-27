@@ -7,11 +7,8 @@
 
 #include "shape.h"
 #include "point.h"
-#include <cmath>
 #include <iostream>
 #include <memory>
-
-const double PI = std::acos(-1);
 
 class Circle : public Shape {
 private:

@@ -5,7 +5,7 @@
 #include "square.h"
 
 double Square::diameter() const {
-    return sqrt(2) * m_length;
+    return SQRT2 * m_length;
 }
 
 double Square::perimeter() const {

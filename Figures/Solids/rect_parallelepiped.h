@@ -7,7 +7,6 @@
 
 #include "prism.h"
 #include "rectangle.h"
-#include <cmath>
 
 template<>
 class Prism<Rectangle> : public PrismBase<Rectangle> {
@@ -16,6 +15,7 @@ private:
     double b = m_base.height();
     double c = m_transVector.absv();
 public:
+    Prism(Rectangle base, Point transVector): PrismBase<Rectangle>{std::move(base), transVector} {}
     double diameter() const override {
         return std::sqrt(a*a + b*b + c*c);
     }

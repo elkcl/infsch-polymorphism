@@ -32,7 +32,7 @@ public:
     }
     double volume() const override {
         Plane basePlane = m_base.plane();
-        return m_base.area() * (basePlane.projection(basePlane.point() + m_transVector) - basePlane.point()).absv();
+        return m_base.area() * (basePlane.projection(basePlane.point() + m_transVector) - (basePlane.point() + m_transVector)).absv();
     }
 
     static std::unique_ptr<Prism<T>> input(std::istream& in, std::ostream& out) {
@@ -46,6 +46,8 @@ public:
 };
 
 template <typename T>
-class Prism : public PrismBase<T> {};
+class Prism : public PrismBase<T> {
+    Prism(T base, Point transVector): PrismBase<T>{std::move(base), transVector} {}
+};
 
 #endif //POLYMORPHISM_PRISM_H

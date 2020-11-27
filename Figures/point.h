@@ -7,6 +7,10 @@
 
 #include <cmath>
 
+const double PI = std::acos(-1);
+const double SQRT2 = std::sqrt(2);
+const double SQRT3 = std::sqrt(3);
+
 class Point {
 public:
     double x = 0;

@@ -5,17 +5,17 @@
 #ifndef POLYMORPHISM_CUBE_H
 #define POLYMORPHISM_CUBE_H
 
+#include <utility>
+
 #include "prism.h"
 #include "square.h"
-#include <cmath>
-
-const double SQRT3 = std::sqrt(3);
 
 template<>
 class Prism<Square> : public PrismBase<Square> {
 private:
     double a = m_base.length();
 public:
+    Prism(Square base, Point transVector): PrismBase<Square>{std::move(base), transVector} {}
     double diameter() const override {
         return SQRT3 * a;
     }
