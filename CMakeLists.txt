@@ -5,6 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_subdirectory(Figures/Shapes)
 add_subdirectory(Figures/Solids)
+add_subdirectory(kr2020-inherit3)
 
 add_executable(SolidTest solidtest.cpp)
 target_include_directories(SolidTest PUBLIC ${CMAKE_SOURCE_DIR}/Figures)
